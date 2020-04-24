@@ -18,7 +18,7 @@ def passs():
 Version:2.1
 Codigo escrito por: Angelo Mass - Darko.
 
-1) Contrasena de mayusculas.
+1) Contrasena de solo mayusculas.
 2) Contrasena de solo minusculas.
 3) Contrasena de solo numeros.
 4) Contrasena con mayusculas, minusculas y numeros.
