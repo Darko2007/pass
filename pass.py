@@ -107,7 +107,7 @@ Seccion: numeros.
     try:
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN + '[*]Su password es: ' + procesar
-	      passs()
+	passs()
     except:
 	      print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
 	      passs()
