@@ -28,19 +28,14 @@ Codigo escrito por: Angelo Mass - Darko.
         opcion = raw_input('Darko@Pass$ ')
         if opcion == '1':
             mayusculas()
-            break
         elif opcion == '2':
             minusculas()
-            break
         elif opcion == '3':
             numeros()
-            break
         elif opcion == '4':
             mayus_minus_num()
-            break
         elif opcion == '5':
             mixto()
-            break
         elif opcion == '6':
             exit()
         else:
@@ -63,10 +58,8 @@ Seccion: mayusculas.
     try:
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN +  '[*]Su password es: ' + procesar
-        passs()
     except:
         print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
-        passs()
 
 def minusculas():
     print '''
@@ -85,10 +78,8 @@ Seccion: minusculas.
     try:
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN + '[*]Su password es: ' + procesar
-        passs()
     except:
         print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
-        passs()
 
 def numeros():
     print '''
@@ -107,10 +98,9 @@ Seccion: numeros.
     try:
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN + '[*]Su password es: ' + procesar
-	passs()
     except:
-	      print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
-	      passs()
+	print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
+	passs()
 
 def mayus_minus_num():
     print '''
@@ -129,10 +119,8 @@ Seccion: mayusculas, minusculas y numeros.
     try:
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN + '[*]Su password es: ' + procesar
-        passs()
     except:
-        print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
-        passs()
+        print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.
 def mixto():
     print '''
 ####    ###     ####    #### 
@@ -150,10 +138,8 @@ Seccion: mayusculas, minusculas, numeros y caracteres especiales.
     try:
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN + '[*]Su password es: ' + procesar
-        passs()
     except:
         print Fore.RED + '[*]Reintentar. El valor maximo permitido es 94. No utilizar caracteres alfabeticos.'
-        passs()
 passs()
 
 #Codigo escrito por Angelo Mass - Darko.
