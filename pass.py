@@ -120,7 +120,7 @@ Seccion: mayusculas, minusculas y numeros.
         procesar = str(''.join(random.sample(password, int(longitud))))
         print Fore.GREEN + '[*]Su password es: ' + procesar
     except:
-        print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.
+        print Fore.RED + '[*]Reintentar. El valor maximo permitido es 26. No utilizar caracteres alfabeticos.'
 def mixto():
     print '''
 ####    ###     ####    #### 
